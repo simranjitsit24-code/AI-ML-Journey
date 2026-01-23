@@ -77,3 +77,8 @@ print (csv_data.index)   # Get row indices
 
 print (csv_data.describe()) # Get summary statistics
 
+
+print (csv_data.info()) # Get info about DataFrame
+
+cancer_data = pd.read_csv("cancer-risk-factors.csv")
+print(cancer_data.head())  # Display first 5 rows
